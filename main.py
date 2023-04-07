@@ -6,7 +6,7 @@ print(" ")
 if (a+b > c) and (a+c > b) and (b+c > a):
   if (a == c) and (a == c) and (b == c):
     print("Equilátero")
-  elif (a != c) and (a != c) and (b != c):
+  elif (a != c) and (a != b) and (b != c):
     print("Isósceles")
   else:
     print("Escaleno")
