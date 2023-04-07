@@ -5,11 +5,11 @@ print(" ")
 
 if (a+b > c) and (a+c > b) and (b+c > a):
   if (a == c) and (a == c) and (b == c):
-    print("Triângulo Equilátero")
+    print("Equilátero")
   elif (a != c) and (a != c) and (b != c):
-    print("Triângulo Escaleno")
+    print("Isósceles")
   else:
-    print("Triângulo Isósceles ")
+    print("Escaleno")
     
 else:
   print("Não é um triângulo")
